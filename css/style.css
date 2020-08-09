@@ -43,3 +43,32 @@ table {
 * {
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 96px;
+    width: 100%;
+    background-color: #282F35;
+    color: #FFF;
+    font-weight: bold;
+
+}
+
+.header a, .header span {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.header__cat {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 96px;
+}
+
+.header__navi__list {
+    display: flex;
+}
