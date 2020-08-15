@@ -49,12 +49,13 @@ a {
 }
 
 .header {
-    height: 96px;
+    position: relative;
+    background-image: url(../img/fv-bgi_01@2x.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
     width: 100%;
-    background-color: #282F35;
-    color: #FFF;
-    font-weight: bold;
-
+    height: 100vh;
+    min-height: 660px;
 }
 
 .header a, .header span {
@@ -69,6 +70,48 @@ a {
     line-height: 96px;
 }
 
+.header__cat input,
+.header__cat label {
+    display: none;
+}
+
 .header__navi__list {
     display: flex;
 }
+
+.header__bg {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    font-size: 26px;
+}
+
+.header__navi__list .header__navi__item span {
+    margin-left: 20px;
+}
+
+.mainKv__title,.mainKv__sub__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainKv__title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mainKv__sub__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 768px) {
+
+}    
