@@ -121,6 +121,18 @@ img {
     transition: .3s;
 }
 
+.text-right {
+    text-align: right;
+}
+
+.section-title.text-white::after {
+    background-color: #fff;
+}
+
+.text-white {
+    color: #fff;
+}
+
 /* header */
 
 .header {
@@ -210,6 +222,125 @@ img {
     color: #fff;
 }
 
+/* concept */
+
+.concept-lead {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 60px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.concept-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.concept-text {
+    max-width: 440px;
+    line-height: 1.9;
+    font-weight: bold;
+}
+
+.concept-img-wrapper {
+    max-width: 440px;
+    margin-left: 20px;
+}
+
+/* works */
+
+.bg-works {
+    background-image: url(../img/works-bgi@2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.works-list {
+    max-width: 1000px;
+    margin: 0 auto 80px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.works-item {
+    width: 32%;
+    background-color: #fff;
+}
+
+.works-item {
+    color: #141414;
+}
+
+.works-list-text {
+    padding: 25px 20px;
+}
+
+/* service */
+
+.service-list {
+    display: flex;
+}
+
+.service-item {
+    width: 33.3%;
+}
+
+.service-item.service1 {
+    background-image: url(../img/service-img01@2x.jpg);
+}
+
+.service-item.service2 {
+    background-image: url(../img/service-img02@2x.jpg);
+}
+
+.service-item.service3 {
+    background-image: url(../img/sevice-img03@2x.jpg);
+}
+
+.service-item a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 320px;
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    transition: .3s;
+}
+
+.service-item a:hover {
+    background-color: rgba(40,47,53,.7);
+    transition: .3s;
+}
+
+/* contact */
+
+.bg-contact {
+    background-image: url(../img/contact-bgi@2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-text {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+/* footer */
+
+.footer {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #282f35;
+}
 
 /* レスポンシブ */
 @media screen and (max-width: 768px) {
