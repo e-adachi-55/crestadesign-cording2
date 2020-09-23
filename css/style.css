@@ -93,7 +93,6 @@ img{
   box-sizing: border-box;
   width: 100%;
   transition: .3s;
-  
 }
 .header-inner{
   display: flex;
@@ -134,6 +133,14 @@ img{
 }
 .burger-btn{
   display: none;
+}
+
+.header.fixedClass {
+  position: fixed;
+  background-color: #282f35;
+  padding: 30px;
+  width: 100%;
+  transition: .3s;
 }
 
 /* ---------------------------- */
